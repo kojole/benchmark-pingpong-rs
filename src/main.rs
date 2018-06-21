@@ -17,8 +17,8 @@ Arguments:
   kind   Kinds of pingpong:
            Ping        One-way messaging (request).
            PingPong    Two-way messaging (request and response).
-           CBPing      crossbeam-channel version of Ping.
-           CBPingPong  crossbeam-channel version of PingPong.
+           CbPing      crossbeam-channel version of Ping.
+           CbPingPong  crossbeam-channel version of PingPong.
   count  # of pingpong.
 
 Options:
