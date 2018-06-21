@@ -21,7 +21,7 @@ impl Kind {
     pub fn try_from(s: &str) -> Result<Kind, &'static str> {
         match s.to_ascii_lowercase().as_ref() {
             "ping" => Ok(Kind::Ping),
-            "pong" => Ok(Kind::PingPong),
+            "pingpong" => Ok(Kind::PingPong),
             "cbping" => Ok(Kind::CbPing),
             "cbpingpong" => Ok(Kind::CbPingPong),
             _ => Err("must be one of Ping, Pong, CbPing, CbPingPong"),
