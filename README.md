@@ -1,4 +1,4 @@
-# ppbench: benchmark of pingpong channel messageing
+# ppbench: benchmark of pingpong channel messaging
 
 ## Usage
 
